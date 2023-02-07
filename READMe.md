@@ -12,9 +12,10 @@ counter, 4x16-decoder and the 3x8-decoder.
 This is a hardware component of a basic computer system, it comprises
 of inputs and outputs the diagram below shows hard wiring of the control
 organization.<br>
+<br>
 Here, we have the 9 control logic gates for the 9registers, fetch and
 decode process, the bus counter gates, the 7-flipflop as you can clearly observe
-below.<br>
+below.<br><br>
 The control logic gates get its inputs from the 3x8 decoder and the 4x16
 decoder, the I-flip-flop, bits 0 through 11 of the instruction register.
 <br>
