@@ -26,18 +26,20 @@ one bit of information, this mean that an n-bit register has n-flip-flops and st
 n-bit of information. In this project, we shall focus on 9- registers which store
 their own amount of data and have different number of bits.
 <br>
+<br>
 The memory address register (AR) has 12 bits since this is the width of a
 memory address. The program counter (PC) also has 12 bits and it holds the
 address of the next instruction to be read from memory after the current
 instruction is executed. The PC goes through a counting sequence and causes the
 computer to read sequential instructions previously stored in memory. 
 <br>
+<br>
 Instruction words are read and executed in sequence unless a branch instruction is
 encountered. A branch instruction calls for a transfer to a nonconsecutive
 instruction in the program. The address part of a branch instruction is transferred
 to PC to become the address of the next instruction. To read an instruction, the
 content of PC is taken as the address for memory and a memory read cycle is
-initiated. <br>
+initiated. <br><br>
 PC is then incremented by one, so it holds the address of the next
 instruction in sequence. Two registers are used for input and output. The input
 register (INPR) receives an 8-bit character from an input device. The output
@@ -49,7 +51,7 @@ A bus structure consists of a set of common lines, one for each bit of a registe
 through which binary information is transferred one at a time. Control signals
 determine which register is selected by the bus during each particular register
 transfer. One way of constructing a common bus system is with multiplexers. 
-<br>
+<br><br>
 The multiplexers select the source register whose binary information is then placed on
 the bus. The construction of a bus system for eight registers is shown below. Each
 register has its own number of bits which ranges from 8-16 bits. The bus consists
