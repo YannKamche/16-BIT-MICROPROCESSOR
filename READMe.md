@@ -1,5 +1,5 @@
 # THE CONTROL UNIT
-         This is sometimes referred as the master of the computer processes because it lets the computer’s logic unit,
+This is sometimes referred as the master of the computer processes because it lets the computer’s logic unit,
 memory and both input and output devices know how to respond to instructions received from a program.
 Instructions are fetched into the control unit which in turn decodes the instructions so that the adder and logic
 circuit can understand. 
